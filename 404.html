@@ -4,10 +4,10 @@
   <meta charset="UTF-8">
   <title>Page Not Found</title>
   <script type="text/javascript">
-    // Redirect all requests to the index.html file
+    // Redirect to the root of your app
     var pathname = window.location.pathname;
     if (pathname !== "/") {
-      window.location.replace("/" + window.location.pathname);
+      window.location.replace("/home");
     } else {
       window.location.replace("/");
     }
