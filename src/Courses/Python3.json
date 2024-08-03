@@ -1,0 +1,98 @@
+{
+  "logo": "/Technology/python_advace.png",
+  "title": "Python Mastery: Delving into the Cutting Edge",
+  "description": "Congratulations! You've reached the pinnacle of Python programming expertise. This advanced course ventures into the frontiers of the language, equipping you to tackle bleeding-edge technologies and solve problems at the professional level.",
+  "learning_outcomes": [
+    {
+      "title": "Functional Programming",
+      "content": "Master functional programming paradigms like immutability, pure functions, and higher-order functions to write elegant and maintainable code. Explore libraries like functools and explore concepts like lambda functions and map/filter/reduce."
+    },
+    {
+      "title": "Asynchronous Programming",
+      "content": "Learn how to handle multiple requests concurrently without blocking the main thread using libraries like asyncio. Build highly responsive and scalable applications."
+    },
+    {
+      "title": "Distributed Computing",
+      "content": "Dive into the world of distributed computing frameworks like Apache Spark or Dask to process massive datasets efficiently across clusters of computers."
+    },
+    {
+      "title": "GUI Development",
+      "content": "Explore advanced GUI development frameworks like PyQt or Kivy to create user-friendly desktop applications with rich graphical interfaces."
+    },
+    {
+      "title": "Cybersecurity and Cryptography",
+      "content": "Understand the fundamentals of cybersecurity and cryptography to build secure applications that protect user data. Explore libraries like cryptography for encryption and decryption techniques."
+    },
+    {
+      "title": "Cutting-Edge Machine Learning",
+      "content": "Delve deeper into specific areas of Machine Learning (ML) like Deep Learning, Natural Language Processing (NLP), or Computer Vision. Explore advanced algorithms and techniques using libraries like TensorFlow or PyTorch."
+    }
+  ],
+  "course_structure": {
+    "modules": [
+      {
+        "module_number": 1,
+        "title": "Functional Programming",
+        "topics": [
+          "Immutability",
+          "Pure functions",
+          "Higher-order functions"
+        ]
+      },
+      {
+        "module_number": 2,
+        "title": "Asynchronous Programming",
+        "topics": [
+          "Concurrency with asyncio"
+        ]
+      },
+      {
+        "module_number": 3,
+        "title": "Distributed Computing",
+        "topics": [
+          "Spark",
+          "Dask for large-scale data processing"
+        ]
+      },
+      {
+        "module_number": 4,
+        "title": "GUI Development",
+        "topics": [
+          "PyQt",
+          "Kivy for building desktop applications"
+        ]
+      },
+      {
+        "module_number": 5,
+        "title": "Cybersecurity and Cryptography",
+        "topics": [
+          "Securing applications",
+          "Encryption/decryption"
+        ]
+      },
+      {
+        "module_number": 6,
+        "title": "Cutting-Edge Machine Learning",
+        "topics": [
+          "Deep Learning",
+          "NLP",
+          "Computer Vision"
+        ]
+      },
+      {
+        "module_number": 7,
+        "title": "Industry Trends and Research",
+        "topics": [
+          "Staying updated on advancements"
+        ]
+      },
+      {
+        "module_number": 8,
+        "title": "Capstone Project",
+        "topics": [
+          "Apply your mastery to a real-world industry problem"
+        ]
+      }
+    ]
+  }
+}

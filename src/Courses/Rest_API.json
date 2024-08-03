@@ -1,0 +1,111 @@
+{
+  "logo": "/Technology/Rest-api.png",
+  "title": "Demystifying RESTful APIs: Building Modern Web Services",
+  "description": "Welcome to the exciting world of RESTful APIs (Representational State Transfer)! This course equips you with the foundational knowledge and skills to design, develop, and consume these essential building blocks of modern web applications.",
+  "learning_outcomes": [
+    {
+      "title": "RESTful API Fundamentals",
+      "content": "Grasp the core concepts and principles of RESTful APIs, including stateless communication, resource-based architecture, and standardized methods (GET, POST, PUT, DELETE)."
+    },
+    {
+      "title": "HTTP Requests and Responses",
+      "content": "Understand the foundation of web communication. Explore HTTP methods, request headers, response codes, and message bodies (JSON, XML, etc.) used in RESTful APIs."
+    },
+    {
+      "title": "Designing RESTful APIs",
+      "content": "Learn best practices for designing well-structured, consistent, and easy-to-use RESTful APIs. Explore resource identification, versioning, and HATEOAS (Hypermedia as the Engine of Application State)."
+    },
+    {
+      "title": "Building APIs with Popular Frameworks",
+      "content": "Delve into building APIs using popular frameworks like Django REST Framework (Python) or Spring Boot (Java). Explore features like serialization, routing, and authentication. (Specific framework chosen will depend on the course)"
+    },
+    {
+      "title": "Testing and Debugging APIs",
+      "content": "Master techniques for unit testing and integration testing your RESTful APIs to ensure functionality and reliability. Learn tools for debugging API issues."
+    },
+    {
+      "title": "Consuming APIs with Clients",
+      "content": "Explore how to interact with external RESTful APIs as a client in your applications using libraries like requests (Python) or RestTemplate (Java)."
+    },
+    {
+      "title": "RESTful API Security",
+      "content": "Understand security considerations for RESTful APIs, including authentication (e.g., tokens, OAuth), authorization (access control), and data encryption."
+    }
+  ],
+  "course_structure": {
+    "modules": [
+      {
+        "module_number": 1,
+        "title": "Introduction to RESTful APIs",
+        "topics": [
+          "Core concepts",
+          "Principles of RESTful APIs"
+        ]
+      },
+      {
+        "module_number": 2,
+        "title": "HTTP Requests and Responses",
+        "topics": [
+          "HTTP methods",
+          "Request headers",
+          "Response codes",
+          "Message bodies (JSON, XML)"
+        ]
+      },
+      {
+        "module_number": 3,
+        "title": "Designing RESTful APIs",
+        "topics": [
+          "Best practices",
+          "Resource identification",
+          "Versioning",
+          "HATEOAS"
+        ]
+      },
+      {
+        "module_number": 4,
+        "title": "Building APIs with a Framework",
+        "topics": [
+          "Django REST Framework (Python) or Spring Boot (Java)",
+          "Serialization",
+          "Routing",
+          "Authentication"
+        ]
+      },
+      {
+        "module_number": 5,
+        "title": "Testing and Debugging APIs",
+        "topics": [
+          "Unit testing",
+          "Integration testing",
+          "Debugging tools"
+        ]
+      },
+      {
+        "module_number": 6,
+        "title": "Consuming APIs with Clients",
+        "topics": [
+          "Interacting with external RESTful APIs",
+          "Using libraries like requests (Python) or RestTemplate (Java)"
+        ]
+      },
+      {
+        "module_number": 7,
+        "title": "RESTful API Security",
+        "topics": [
+          "Authentication",
+          "Authorization",
+          "Data encryption"
+        ]
+      },
+      {
+        "module_number": 8,
+        "title": "Capstone Project",
+        "topics": [
+          "Building a RESTful API",
+          "Consuming an existing RESTful API"
+        ]
+      }
+    ]
+  }
+}

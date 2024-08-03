@@ -1,0 +1,105 @@
+{
+  "logo": "/Technology/Python.png",
+  "title": "Level Up Python Skills: Beyond the Fundamentals",
+  "description": "Having mastered the basics of Python programming, you're ready to take your skills to the next level! This course builds upon your foundation, equipping you with practical tools and techniques to tackle more complex problems.",
+  "learning_outcomes": [
+    {
+      "title": "Data Structures and Algorithms",
+      "content": "In-depth exploration of lists, tuples, dictionaries, and sets. Learn powerful algorithms for sorting, searching, and manipulating data efficiently."
+    },
+    {
+      "title": "Object-Oriented Programming (OOP)",
+      "content": "Understand the core concepts of OOP - classes, objects, inheritance, polymorphism - to create well-organized and reusable code."
+    },
+    {
+      "title": "Exception Handling",
+      "content": "Gracefully handle errors and unexpected situations in your programs, making them more robust."
+    },
+    {
+      "title": "File Handling",
+      "content": "Work with text and data files, reading, writing, and manipulating data stored on your computer."
+    },
+    {
+      "title": "Web Scraping and APIs",
+      "content": "Extract data from websites and interact with Application Programming Interfaces (APIs) to access information from various online sources."
+    },
+    {
+      "title": "Testing and Debugging",
+      "content": "Develop best practices for testing and debugging your Python code, ensuring its functionality and reliability."
+    }
+  ],
+  "course_structure": {
+    "modules": [
+      {
+        "module_number": 1,
+        "title": "Data Structures",
+        "topics": [
+          "Lists",
+          "Tuples",
+          "Dictionaries",
+          "Sets",
+          "Advanced operations"
+        ]
+      },
+      {
+        "module_number": 2,
+        "title": "Algorithms",
+        "topics": [
+          "Sorting",
+          "Searching",
+          "Efficiency analysis"
+        ]
+      },
+      {
+        "module_number": 3,
+        "title": "Object-Oriented Programming",
+        "topics": [
+          "Classes",
+          "Objects",
+          "Inheritance",
+          "Polymorphism"
+        ]
+      },
+      {
+        "module_number": 4,
+        "title": "Exception Handling",
+        "topics": [
+          "Try/except blocks",
+          "Handling errors"
+        ]
+      },
+      {
+        "module_number": 5,
+        "title": "File Handling",
+        "topics": [
+          "Reading files",
+          "Writing files",
+          "Manipulating files"
+        ]
+      },
+      {
+        "module_number": 6,
+        "title": "Web Scraping and APIs",
+        "topics": [
+          "Extracting data from websites",
+          "Using APIs"
+        ]
+      },
+      {
+        "module_number": 7,
+        "title": "Testing and Debugging",
+        "topics": [
+          "Writing unit tests",
+          "Debugging techniques"
+        ]
+      },
+      {
+        "module_number": 8,
+        "title": "Capstone Project",
+        "topics": [
+          "Apply your skills to a real-world project"
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,101 @@
+{
+  "logo": "/Technology/django.png",
+  "title": "Part 1: Django Web Development",
+  "description": "This part of the course equips you with the skills to build robust and scalable web applications using Django.",
+  "learning_outcomes": [
+    {
+      "title": "Web Development Fundamentals",
+      "content": "Gain a solid understanding of the web development landscape, including HTTP requests and responses, web frameworks, and the Model-View-Template (MVT) architecture."
+    },
+    {
+      "title": "Building with Django",
+      "content": "Dive deep into Django, a high-level Python web framework. Learn to create models, views, templates, and URLs to build dynamic web applications."
+    },
+    {
+      "title": "User Authentication and Authorization",
+      "content": "Implement user authentication and authorization systems for secure access control in your Django applications. Explore features like login, registration, and user permissions."
+    },
+    {
+      "title": "Database Management with Django ORM",
+      "content": "Master how to interact with databases using Django's Object-Relational Mapper (ORM). Perform CRUD operations (Create, Read, Update, Delete) on your data models efficiently."
+    },
+    {
+      "title": "Templating with Django Templates",
+      "content": "Learn to create dynamic and visually appealing web pages using Django's templating engine. Explore template inheritance, context processors, and integrating static files."
+    },
+    {
+      "title": "Forms and Form Processing",
+      "content": "Build user-friendly forms for data collection and validation within your Django applications. Handle form submissions and process user input effectively."
+    },
+    {
+      "title": "Deployment and Production",
+      "content": "Understand the process of deploying your Django application to a web server for real-world usage. Explore configuration management tools and best practices for production environments."
+    }
+  ],
+  "course_structure": {
+    "modules": [
+      {
+        "module_number": 1,
+        "title": "Web Development Fundamentals",
+        "topics": [
+          "HTTP requests and responses",
+          "Web frameworks",
+          "Model-View-Template (MVT) architecture"
+        ]
+      },
+      {
+        "module_number": 2,
+        "title": "Building with Django",
+        "topics": [
+          "Creating models",
+          "Views and templates",
+          "URLs and routing"
+        ]
+      },
+      {
+        "module_number": 3,
+        "title": "User Authentication and Authorization",
+        "topics": [
+          "User login and registration",
+          "User permissions",
+          "Secure access control"
+        ]
+      },
+      {
+        "module_number": 4,
+        "title": "Database Management with Django ORM",
+        "topics": [
+          "CRUD operations",
+          "Database interactions"
+        ]
+      },
+      {
+        "module_number": 5,
+        "title": "Templating with Django Templates",
+        "topics": [
+          "Template inheritance",
+          "Context processors",
+          "Integrating static files"
+        ]
+      },
+      {
+        "module_number": 6,
+        "title": "Forms and Form Processing",
+        "topics": [
+          "Building user-friendly forms",
+          "Form validation",
+          "Processing user input"
+        ]
+      },
+      {
+        "module_number": 7,
+        "title": "Deployment and Production",
+        "topics": [
+          "Deploying Django applications",
+          "Configuration management",
+          "Production best practices"
+        ]
+      }
+    ]
+  }
+}

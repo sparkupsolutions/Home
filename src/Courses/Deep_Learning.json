@@ -1,0 +1,108 @@
+{
+  "logo": "/Technology/deep_learning.png",
+  "title": "Deep Learning Specialization: Dive into the Neural Network Revolution",
+  "description": "Welcome to the fascinating realm of Deep Learning! This course delves into the intricacies of artificial neural networks, empowering you to build and deploy intelligent systems that learn from data.",
+  "learning_outcomes": [
+    {
+      "title": "Deep Learning Fundamentals",
+      "content": "Gain a solid understanding of artificial neural networks, including their architecture, activation functions, and optimization algorithms. Explore concepts like backpropagation and gradient descent."
+    },
+    {
+      "title": "Convolutional Neural Networks (CNNs)",
+      "content": "Master CNNs, the workhorses of image recognition and computer vision. Learn about convolutional layers, pooling operations, and techniques for image classification and object detection."
+    },
+    {
+      "title": "Recurrent Neural Networks (RNNs)",
+      "content": "Dive into RNNs, a powerful architecture for processing sequential data like text and time series. Explore LSTMs (Long Short-Term Memory) and GRUs (Gated Recurrent Units) for handling long-term dependencies."
+    },
+    {
+      "title": "Autoencoders and Generative Models",
+      "content": "Uncover the world of autoencoders for dimensionality reduction and data compression. Explore Generative Adversarial Networks (GANs) for creating new data that resembles the training data."
+    },
+    {
+      "title": "Deep Learning Frameworks",
+      "content": "Master popular deep learning frameworks like TensorFlow, PyTorch, or Keras to efficiently build, train, and deploy your deep learning models."
+    },
+    {
+      "title": "Regularization Techniques",
+      "content": "Learn how to prevent overfitting and improve the generalization capabilities of your models using techniques like dropout and L1/L2 regularization."
+    },
+    {
+      "title": "Deep Learning Applications",
+      "content": "Explore the vast applications of deep learning in various domains like natural language processing, recommender systems, and image segmentation."
+    }
+  ],
+  "course_structure": {
+    "modules": [
+      {
+        "module_number": 1,
+        "title": "Introduction to Deep Learning",
+        "topics": [
+          "Neural networks",
+          "Activation functions",
+          "Optimization algorithms"
+        ]
+      },
+      {
+        "module_number": 2,
+        "title": "Convolutional Neural Networks (CNNs)",
+        "topics": [
+          "Convolution layers",
+          "Pooling operations",
+          "Image classification"
+        ]
+      },
+      {
+        "module_number": 3,
+        "title": "Recurrent Neural Networks (RNNs)",
+        "topics": [
+          "LSTMs",
+          "GRUs",
+          "Sequence processing"
+        ]
+      },
+      {
+        "module_number": 4,
+        "title": "Autoencoders and Generative Models",
+        "topics": [
+          "Dimensionality reduction",
+          "GANs"
+        ]
+      },
+      {
+        "module_number": 5,
+        "title": "Deep Learning Frameworks",
+        "topics": [
+          "TensorFlow",
+          "PyTorch",
+          "Keras for model building"
+        ]
+      },
+      {
+        "module_number": 6,
+        "title": "Regularization Techniques",
+        "topics": [
+          "Dropout",
+          "L1/L2 regularization",
+          "Preventing overfitting"
+        ]
+      },
+      {
+        "module_number": 7,
+        "title": "Deep Learning Applications",
+        "topics": [
+          "NLP",
+          "Recommender systems",
+          "Image segmentation"
+        ]
+      },
+      {
+        "module_number": 8,
+        "title": "Capstone Project",
+        "topics": [
+          "Build and deploy a deep learning model for a chosen task"
+        ]
+      }
+    ]
+  }
+}

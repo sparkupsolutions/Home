@@ -1,0 +1,92 @@
+{
+  "logo": "/Technology/Python.png",
+  "title": "Python Programming Fundamentals",
+  "description": "This course is designed for complete beginners with no prior programming experience. It will equip you with the basic building blocks of Python programming, enabling you to write simple scripts and programs.",
+  "learning_outcomes": [
+    {
+      "title": "Python Basics",
+      "content": "Setting up your development environment, variables, data types (numbers, strings, booleans, lists, etc.), operators, and working with user input."
+    },
+    {
+      "title": "Control Flow",
+      "content": "Using conditional statements (if/else) and loops (for/while) to control the flow of your programs."
+    },
+    {
+      "title": "Functions",
+      "content": "Defining and using functions to create reusable blocks of code."
+    },
+    {
+      "title": "Modules and Packages",
+      "content": "Importing and utilizing pre-written code to enhance your programs."
+    }
+  ],
+  "course_structure": {
+    "modules": [
+      {
+        "module_number": 1,
+        "title": "Introduction to Python",
+        "topics": [
+          "Setting up environment",
+          "Basic syntax"
+        ]
+      },
+      {
+        "module_number": 2,
+        "title": "Variables and Data Types",
+        "topics": [
+          "Numbers",
+          "Strings",
+          "Booleans",
+          "Lists"
+        ]
+      },
+      {
+        "module_number": 3,
+        "title": "Operators and Expressions",
+        "topics": [
+          "Performing calculations",
+          "Manipulating data"
+        ]
+      },
+      {
+        "module_number": 4,
+        "title": "Control Flow",
+        "topics": [
+          "Conditional statements",
+          "Loops"
+        ]
+      },
+      {
+        "module_number": 5,
+        "title": "Functions",
+        "topics": [
+          "Defining functions",
+          "Using functions"
+        ]
+      },
+      {
+        "module_number": 6,
+        "title": "Input and Output",
+        "topics": [
+          "Working with user input",
+          "Displaying results"
+        ]
+      },
+      {
+        "module_number": 7,
+        "title": "Debugging",
+        "topics": [
+          "Identifying errors",
+          "Fixing errors"
+        ]
+      },
+      {
+        "module_number": 8,
+        "title": "Modules and Packages",
+        "topics": [
+          "Importing pre-written code"
+        ]
+      }
+    ]
+  }
+}

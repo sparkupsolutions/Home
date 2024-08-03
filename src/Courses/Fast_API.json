@@ -1,0 +1,141 @@
+{
+  "logo": "/Technology/FastAPI.png",
+  "title": "Mastering Web APIs: A Deep Dive into FastAPI",
+  "description": "Welcome to the world of high-performance web APIs with FastAPI! This course equips you with the skills to build modern, efficient, and feature-rich APIs using this powerful Python framework.",
+  "learning_outcomes": [
+    {
+      "title": "Web API Fundamentals",
+      "content": "Gain a solid understanding of web APIs (RESTful and beyond) and their role in web development. Explore concepts like HTTP requests and responses, data formats (JSON, etc.), and API design principles."
+    },
+    {
+      "title": "FastAPI Core Concepts",
+      "content": "Dive deep into FastAPI's core features like automatic data validation, dependency injection, and asynchronous programming capabilities."
+    },
+    {
+      "title": "Routing and Path Operations",
+      "content": "Master how to define routes in your FastAPI application using path operations (GET, POST, PUT, DELETE) for handling different types of API requests."
+    },
+    {
+      "title": "Data Validation with Pydantic",
+      "content": "Learn to leverage Pydantic, a built-in data validation library in FastAPI, to ensure data integrity and enforce data schemas within your API requests and responses."
+    },
+    {
+      "title": "Dependency Injection",
+      "content": "Understand the concept of dependency injection and how FastAPI facilitates it for cleaner and more maintainable code."
+    },
+    {
+      "title": "Security with FastAPI",
+      "content": "Explore built-in security features in FastAPI, including authentication and authorization mechanisms to protect your APIs from unauthorized access."
+    },
+    {
+      "title": "Testing with FastAPI",
+      "content": "Learn techniques and tools for unit testing and integration testing your FastAPI applications to ensure their functionality and reliability."
+    },
+    {
+      "title": "Asynchronous Programming",
+      "content": "Harness the power of asynchronous programming with FastAPI to build highly scalable and performant APIs that can handle multiple requests concurrently."
+    },
+    {
+      "title": "Advanced Techniques",
+      "content": "Explore optional advanced topics such as OpenAPI documentation, deploying FastAPI applications, and creating custom middlewares and exception handling."
+    }
+  ],
+  "course_structure": {
+    "modules": [
+      {
+        "module_number": 1,
+        "title": "Introduction to Web APIs",
+        "topics": [
+          "Web API concepts",
+          "HTTP requests and responses",
+          "Data formats (JSON, etc.)",
+          "API design principles"
+        ]
+      },
+      {
+        "module_number": 2,
+        "title": "Introduction to FastAPI",
+        "topics": [
+          "FastAPI overview",
+          "Automatic data validation",
+          "Dependency injection",
+          "Asynchronous programming capabilities"
+        ]
+      },
+      {
+        "module_number": 3,
+        "title": "Routing and Path Operations",
+        "topics": [
+          "Defining routes",
+          "Path operations (GET, POST, PUT, DELETE)",
+          "Handling API requests"
+        ]
+      },
+      {
+        "module_number": 4,
+        "title": "Data Validation with Pydantic",
+        "topics": [
+          "Using Pydantic for data validation",
+          "Ensuring data integrity",
+          "Enforcing data schemas"
+        ]
+      },
+      {
+        "module_number": 5,
+        "title": "Dependency Injection in FastAPI",
+        "topics": [
+          "Concept of dependency injection",
+          "Implementing dependency injection",
+          "Benefits for code maintainability"
+        ]
+      },
+      {
+        "module_number": 6,
+        "title": "Security with FastAPI",
+        "topics": [
+          "Built-in security features",
+          "Authentication mechanisms",
+          "Authorization mechanisms",
+          "Protecting APIs from unauthorized access"
+        ]
+      },
+      {
+        "module_number": 7,
+        "title": "Testing FastAPI Applications",
+        "topics": [
+          "Unit testing techniques",
+          "Integration testing",
+          "Ensuring functionality and reliability"
+        ]
+      },
+      {
+        "module_number": 8,
+        "title": "Asynchronous Programming with FastAPI",
+        "topics": [
+          "Asynchronous programming concepts",
+          "Building scalable APIs",
+          "Handling concurrent requests"
+        ]
+      },
+      {
+        "module_number": 9,
+        "title": "Advanced Topics (Optional)",
+        "topics": [
+          "OpenAPI documentation",
+          "Deploying FastAPI applications",
+          "Custom middlewares",
+          "Exception handling"
+        ]
+      },
+      {
+        "module_number": 10,
+        "title": "Capstone Project",
+        "topics": [
+          "Building a RESTful API with FastAPI",
+          "Real-world application",
+          "Project implementation"
+        ]
+      }
+    ]
+  }
+}

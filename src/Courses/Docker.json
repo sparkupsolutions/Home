@@ -1,0 +1,121 @@
+{
+  "logo": "/Technology/docker.png",
+  "title": "Docker Mastery: Containerize Your Applications for Efficiency and Portability",
+  "description": "Welcome to the world of containerization with Docker! This course equips you with the skills to package your applications with their dependencies into lightweight, portable containers, enabling efficient development, deployment, and scaling.",
+  "learning_outcomes": [
+    {
+      "title": "Docker Fundamentals",
+      "content": "Grasp the core concepts of containerization and Docker's role in simplifying application deployment and management. Explore the difference between VMs and containers."
+    },
+    {
+      "title": "Docker Images and Building",
+      "content": "Learn how to create Docker images, the building blocks of containers. Explore Dockerfiles with instructions for building container environments with specific software versions and configurations."
+    },
+    {
+      "title": "Running and Managing Containers",
+      "content": "Master how to run Docker containers from pre-built images or your own custom images. Explore commands for starting, stopping, and managing container lifecycles."
+    },
+    {
+      "title": "Docker Networking",
+      "content": "Understand the fundamentals of networking between Docker containers. Learn about Docker's default network mode and explore techniques for creating custom networks for container communication."
+    },
+    {
+      "title": "Docker Volumes and Storage",
+      "content": "Discover how to manage persistent data storage for your containerized applications using Docker volumes. Explore mounting volumes from the host machine or external storage solutions."
+    },
+    {
+      "title": "Docker Compose for Multi-Container Applications",
+      "content": "Learn how to manage and orchestrate multi-container applications with Docker Compose. Define services and their dependencies in a YAML file for simplified deployment."
+    },
+    {
+      "title": "Docker Registries",
+      "content": "Explore Docker Hub, a public registry for sharing and discovering Docker images. Understand private registries for hosting your own custom images within organizations."
+    },
+    {
+      "title": "Docker for Development Workflows",
+      "content": "Learn how to leverage Docker for efficient development workflows. Explore techniques like containerized development environments and continuous integration/continuous delivery (CI/CD) pipelines with Docker."
+    }
+  ],
+  "course_structure": {
+    "modules": [
+      {
+        "module_number": 1,
+        "title": "Introduction to Containerization and Docker",
+        "topics": [
+          "Containerization concepts",
+          "Docker's role",
+          "VMs vs containers"
+        ]
+      },
+      {
+        "module_number": 2,
+        "title": "Docker Images and Building",
+        "topics": [
+          "Creating Docker images",
+          "Dockerfiles",
+          "Building container environments"
+        ]
+      },
+      {
+        "module_number": 3,
+        "title": "Running and Managing Containers",
+        "topics": [
+          "Running containers",
+          "Managing container lifecycles"
+        ]
+      },
+      {
+        "module_number": 4,
+        "title": "Docker Networking",
+        "topics": [
+          "Networking fundamentals",
+          "Docker's default network mode",
+          "Custom networks"
+        ]
+      },
+      {
+        "module_number": 5,
+        "title": "Docker Volumes and Storage",
+        "topics": [
+          "Persistent data storage",
+          "Mounting volumes",
+          "External storage solutions"
+        ]
+      },
+      {
+        "module_number": 6,
+        "title": "Docker Compose for Multi-Container Applications",
+        "topics": [
+          "Managing multi-container applications",
+          "Docker Compose",
+          "YAML files for deployment"
+        ]
+      },
+      {
+        "module_number": 7,
+        "title": "Docker Registries",
+        "topics": [
+          "Docker Hub",
+          "Public registries",
+          "Private registries"
+        ]
+      },
+      {
+        "module_number": 8,
+        "title": "Docker for Development Workflows",
+        "topics": [
+          "Efficient development workflows",
+          "Containerized development environments",
+          "CI/CD pipelines with Docker"
+        ]
+      },
+      {
+        "module_number": 9,
+        "title": "Capstone Project",
+        "topics": [
+          "Building a multi-container application with Docker Compose"
+        ]
+      }
+    ]
+  }
+}

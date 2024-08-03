@@ -1,0 +1,129 @@
+{
+  "logo": "/Technology/git.png",
+  "title": "Mastering Version Control with Git: A Practical Guide",
+  "description": "Welcome to the world of Git! This course equips you with the skills to effectively manage your codebase using Git, the most popular version control system (VCS) for software development.",
+  "learning_outcomes": [
+    {
+      "title": "Version Control Fundamentals",
+      "content": "Grasp the core concepts of version control systems and their role in tracking code changes, collaboration, and maintaining project history."
+    },
+    {
+      "title": "Introducing Git",
+      "content": "Dive deep into Git, a distributed version control system, understanding its core philosophy and workflow."
+    },
+    {
+      "title": "Git Basics",
+      "content": "Learn fundamental Git commands for initializing a repository, staging changes, committing changes, and viewing the commit history."
+    },
+    {
+      "title": "Working with Branches",
+      "content": "Master the concept of branches in Git, allowing you to isolate development work and collaborate effectively. Explore creating, switching, merging, and rebasing branches."
+    },
+    {
+      "title": "Tracking Remote Repositories",
+      "content": "Understand how to connect your local Git repository to a remote repository (e.g., GitHub) for collaboration and version control across teams. Learn to push, pull, and fetch code changes."
+    },
+    {
+      "title": "Resolving Conflicts",
+      "content": "Explore techniques for resolving merge conflicts that might arise when collaborating on the same codebase using Git."
+    },
+    {
+      "title": "Advanced Git Features (Optional)",
+      "content": "Delve into advanced topics like submodules, ignoring files with .gitignore, stashing changes, and using Git tags."
+    },
+    {
+      "title": "Git for Collaboration Platforms",
+      "content": "Learn best practices for using Git with popular collaboration platforms like GitHub or GitLab, leveraging features like issue tracking and pull requests."
+    }
+  ],
+  "course_structure": {
+    "modules": [
+      {
+        "module_number": 1,
+        "title": "Introduction to Version Control",
+        "topics": [
+          "Overview of version control systems",
+          "Importance in software development",
+          "Tracking code changes"
+        ]
+      },
+      {
+        "module_number": 2,
+        "title": "Introduction to Git",
+        "topics": [
+          "Git overview",
+          "Core philosophy",
+          "Distributed version control"
+        ]
+      },
+      {
+        "module_number": 3,
+        "title": "Git Basics",
+        "topics": [
+          "Initializing a repository",
+          "Staging changes",
+          "Committing changes",
+          "Viewing commit history"
+        ]
+      },
+      {
+        "module_number": 4,
+        "title": "Branching and Merging Strategies",
+        "topics": [
+          "Creating branches",
+          "Switching branches",
+          "Merging branches",
+          "Rebasing branches"
+        ]
+      },
+      {
+        "module_number": 5,
+        "title": "Working with Remote Repositories",
+        "topics": [
+          "Connecting to remote repositories",
+          "Pushing changes",
+          "Pulling changes",
+          "Fetching changes"
+        ]
+      },
+      {
+        "module_number": 6,
+        "title": "Resolving Merge Conflicts",
+        "topics": [
+          "Identifying conflicts",
+          "Resolving conflicts",
+          "Best practices"
+        ]
+      },
+      {
+        "module_number": 7,
+        "title": "Advanced Git Features (Optional)",
+        "topics": [
+          "Submodules",
+          "Ignoring files with .gitignore",
+          "Stashing changes",
+          "Using Git tags"
+        ]
+      },
+      {
+        "module_number": 8,
+        "title": "Git for Collaboration Platforms",
+        "topics": [
+          "Using GitHub/GitLab",
+          "Issue tracking",
+          "Pull requests",
+          "Collaboration best practices"
+        ]
+      },
+      {
+        "module_number": 9,
+        "title": "Capstone Project",
+        "topics": [
+          "Simulating collaborative development",
+          "Implementing a version control workflow",
+          "Final project implementation"
+        ]
+      }
+    ]
+  }
+}

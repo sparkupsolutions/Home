@@ -1,0 +1,131 @@
+{
+  "logo": "/Technology/flask.png",
+  "title": "Mastering Web Development: A Comprehensive Guide to Flask",
+  "description": "Welcome to the exciting world of web development with Flask! This course equips you with the skills to build dynamic and lightweight web applications using this versatile Python microframework.",
+  "learning_outcomes": [
+    {
+      "title": "Web Development Fundamentals",
+      "content": "Gain a solid understanding of the web development landscape, including HTTP requests and responses, web frameworks, and the Model-View-Controller (MVC) architecture."
+    },
+    {
+      "title": "Introduction to Flask",
+      "content": "Dive deep into Flask, a minimalist Python web framework known for its flexibility and ease of use. Learn core concepts like routing, request handling, and templating."
+    },
+    {
+      "title": "Routing and URL Mapping",
+      "content": "Master how to define routes in your Flask application to map URLs to specific functions that handle user requests."
+    },
+    {
+      "title": "Templating with Jinja2",
+      "content": "Learn to create dynamic web pages using Jinja2, the default templating engine for Flask. Explore template inheritance, context processors, and integrating static files."
+    },
+    {
+      "title": "Forms and Form Validation",
+      "content": "Build user-friendly forms for data collection and validation within your Flask applications. Handle form submissions and process user input effectively using libraries like WTForms."
+    },
+    {
+      "title": "Database Integration",
+      "content": "Explore options for integrating Flask applications with relational databases. Learn to connect to databases like PostgreSQL or MySQL and perform CRUD operations. Popular Object-Relational Mappers (ORMs) will be explored."
+    },
+    {
+      "title": "Flask Extensions",
+      "content": "Discover the power of Flask extensions, pre-written modules that add functionalities like user authentication, database connections, and more, to your applications."
+    },
+    {
+      "title": "Deployment and Production",
+      "content": "Understand the process of deploying your Flask application to a web server for real-world usage. Explore configuration management tools and best practices for production environments."
+    }
+  ],
+  "course_structure": {
+    "modules": [
+      {
+        "module_number": 1,
+        "title": "Introduction to Web Development",
+        "topics": [
+          "Web development concepts",
+          "HTTP requests and responses",
+          "Web frameworks overview",
+          "Model-View-Controller (MVC) architecture"
+        ]
+      },
+      {
+        "module_number": 2,
+        "title": "Introduction to Flask",
+        "topics": [
+          "Flask overview",
+          "Core concepts",
+          "Routing",
+          "Request handling",
+          "Templating"
+        ]
+      },
+      {
+        "module_number": 3,
+        "title": "Routing and URL Mapping",
+        "topics": [
+          "Defining routes",
+          "URL mapping",
+          "Handling user requests"
+        ]
+      },
+      {
+        "module_number": 4,
+        "title": "Templating with Jinja2",
+        "topics": [
+          "Using Jinja2 for dynamic web pages",
+          "Template inheritance",
+          "Context processors",
+          "Integrating static files"
+        ]
+      },
+      {
+        "module_number": 5,
+        "title": "Forms and Form Validation",
+        "topics": [
+          "Building user-friendly forms",
+          "Data collection and validation",
+          "Handling form submissions",
+          "Using WTForms"
+        ]
+      },
+      {
+        "module_number": 6,
+        "title": "Database Integration with Flask",
+        "topics": [
+          "Integrating relational databases",
+          "Connecting to databases (PostgreSQL, MySQL)",
+          "Performing CRUD operations",
+          "Using ORMs"
+        ]
+      },
+      {
+        "module_number": 7,
+        "title": "Flask Extensions",
+        "topics": [
+          "Overview of Flask extensions",
+          "User authentication",
+          "Database connections",
+          "Additional functionalities"
+        ]
+      },
+      {
+        "module_number": 8,
+        "title": "Deployment and Production",
+        "topics": [
+          "Deploying Flask applications",
+          "Configuration management tools",
+          "Best practices for production environments"
+        ]
+      },
+      {
+        "module_number": 9,
+        "title": "Capstone Project",
+        "topics": [
+          "Building a Flask web application",
+          "Real-world application",
+          "Project implementation"
+        ]
+      }
+    ]
+  }
+}

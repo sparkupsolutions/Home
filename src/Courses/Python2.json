@@ -1,0 +1,98 @@
+{
+  "logo": "/Technology/python2.png",
+  "title": "Unleash the Power of Python: Advanced Concepts",
+  "description": "Welcome to the realm of advanced Python programming! This course is designed to take your Python mastery to new heights, equipping you with the expertise to tackle complex tasks and build sophisticated applications.",
+  "learning_outcomes": [
+    {
+      "title": "Metaprogramming",
+      "content": "Dive into the world of metaprogramming techniques like decorators, generators, and iterators to write concise and expressive code."
+    },
+    {
+      "title": "Concurrency and Parallelism",
+      "content": "Learn how to leverage multiple processing cores to improve the performance of your applications through techniques like threading and multiprocessing."
+    },
+    {
+      "title": "Network Programming",
+      "content": "Master the art of creating network applications that can communicate with other machines over the internet. Build web servers, clients, and explore protocols like TCP/IP and socket programming."
+    },
+    {
+      "title": "Databases and Data Persistence",
+      "content": "Explore powerful database technologies like SQL and NoSQL to store, manipulate, and retrieve data efficiently. Learn frameworks like SQLAlchemy for interacting with databases from your Python code."
+    },
+    {
+      "title": "Machine Learning and Data Science",
+      "content": "Delve into the exciting world of Machine Learning (ML) and Data Science using libraries like NumPy, Pandas, TensorFlow, and scikit-learn. Analyze data, build predictive models, and explore various ML algorithms."
+    },
+    {
+      "title": "Web Development Frameworks",
+      "content": "Explore popular web development frameworks like Django or Flask to rapidly build dynamic and scalable web applications. Learn about routing, templating, user authentication, and more."
+    }
+  ],
+  "course_structure": {
+    "modules": [
+      {
+        "module_number": 1,
+        "title": "Metaprogramming",
+        "topics": [
+          "Decorators",
+          "Generators",
+          "Iterators"
+        ]
+      },
+      {
+        "module_number": 2,
+        "title": "Concurrency and Parallelism",
+        "topics": [
+          "Threading",
+          "Multiprocessing"
+        ]
+      },
+      {
+        "module_number": 3,
+        "title": "Network Programming",
+        "topics": [
+          "Web servers",
+          "Clients",
+          "TCP/IP",
+          "Sockets"
+        ]
+      },
+      {
+        "module_number": 4,
+        "title": "Databases and Data Persistence",
+        "topics": [
+          "SQL",
+          "NoSQL",
+          "SQLAlchemy"
+        ]
+      },
+      {
+        "module_number": 5,
+        "title": "Machine Learning and Data Science",
+        "topics": [
+          "NumPy",
+          "Pandas",
+          "TensorFlow",
+          "Scikit-learn"
+        ]
+      },
+      {
+        "module_number": 6,
+        "title": "Web Development Frameworks",
+        "topics": [
+          "Django/Flask",
+          "Routing",
+          "Templating",
+          "User authentication"
+        ]
+      },
+      {
+        "module_number": 7,
+        "title": "Advanced Project",
+        "topics": [
+          "Apply your skills to a complex project of your choice"
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,106 @@
+{
+  "logo": "/Technology/django_part2.png",
+  "title": "Part 2: Building APIs with Django REST Framework",
+  "description": "This part of the course equips you with the skills to build powerful APIs using Django REST Framework.",
+  "learning_outcomes": [
+    {
+      "title": "Introduction to RESTful APIs",
+      "content": "Grasp the core concepts of RESTful APIs (Representational State Transfer) and their importance in modern web development."
+    },
+    {
+      "title": "Django REST Framework Fundamentals",
+      "content": "Learn Django REST Framework, a powerful toolkit for building RESTful APIs on top of your Django applications. Explore serializers, views, and routers."
+    },
+    {
+      "title": "Serializers and Data Representation",
+      "content": "Master serializers for converting Django models into JSON or other data formats for efficient API communication."
+    },
+    {
+      "title": "API Views and Endpoints",
+      "content": "Learn to create various types of API views (ListAPIView, DetailView, etc.) to handle different types of API requests (GET, POST, PUT, DELETE)."
+    },
+    {
+      "title": "Authentication and Permissions for APIs",
+      "content": "Implement robust authentication and authorization mechanisms to secure your Django REST Framework APIs. Explore token-based authentication and user permissions."
+    },
+    {
+      "title": "Testing and Debugging APIs",
+      "content": "Understand the importance of testing for APIs and explore tools and techniques for unit testing and integration testing your Django REST Framework APIs."
+    },
+    {
+      "title": "Advanced Topics",
+      "content": "Delve into advanced topics like custom permissions, throttling, pagination, and integrating with third-party services to enhance your APIs."
+    }
+  ],
+  "course_structure": {
+    "modules": [
+      {
+        "module_number": 8,
+        "title": "Introduction to RESTful APIs",
+        "topics": [
+          "Core concepts of RESTful APIs",
+          "Importance in modern web development"
+        ]
+      },
+      {
+        "module_number": 9,
+        "title": "Django REST Framework Fundamentals",
+        "topics": [
+          "Serializers",
+          "Views",
+          "Routers"
+        ]
+      },
+      {
+        "module_number": 10,
+        "title": "Serializers and Data Representation",
+        "topics": [
+          "Converting Django models to JSON",
+          "Efficient API communication"
+        ]
+      },
+      {
+        "module_number": 11,
+        "title": "API Views and Endpoints",
+        "topics": [
+          "ListAPIView",
+          "DetailView",
+          "Handling GET, POST, PUT, DELETE requests"
+        ]
+      },
+      {
+        "module_number": 12,
+        "title": "Authentication and Permissions for APIs",
+        "topics": [
+          "Token-based authentication",
+          "User permissions"
+        ]
+      },
+      {
+        "module_number": 13,
+        "title": "Testing and Debugging APIs",
+        "topics": [
+          "Unit testing",
+          "Integration testing"
+        ]
+      },
+      {
+        "module_number": 14,
+        "title": "Advanced Topics (Optional)",
+        "topics": [
+          "Custom permissions",
+          "Throttling",
+          "Pagination",
+          "Integrating with third-party services"
+        ]
+      },
+      {
+        "module_number": 15,
+        "title": "Capstone Project",
+        "topics": [
+          "Building a Django web app with RESTful API"
+        ]
+      }
+    ]
+  }
+}

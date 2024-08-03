@@ -1,0 +1,97 @@
+{
+  "logo": "/Technology/data_science.png",
+  "title": "Data Science Fundamentals: Unveiling the Secrets from Data",
+  "description": "Welcome to the exciting world of Data Science! This course equips you with the essential skills and knowledge to extract valuable insights from data.",
+  "learning_outcomes": [
+    {
+      "title": "Statistics and Probability Foundations",
+      "content": "Master statistical concepts like hypothesis testing, central tendency, and probability distributions to analyze data effectively."
+    },
+    {
+      "title": "Machine Learning Fundamentals",
+      "content": "Explore core Machine Learning (ML) algorithms like linear regression, decision trees, and k-nearest neighbors. Understand how they learn from data and make predictions."
+    },
+    {
+      "title": "Data Wrangling and Cleaning",
+      "content": "Learn techniques to wrangle and clean messy real-world data, preparing it for analysis using libraries like Pandas and NumPy."
+    },
+    {
+      "title": "Data Visualization",
+      "content": "Create compelling data visualizations using libraries like Matplotlib and Seaborn to communicate insights effectively. Tell stories with your data!"
+    },
+    {
+      "title": "Exploratory Data Analysis (EDA)",
+      "content": "Perform exploratory data analysis (EDA) to uncover patterns, trends, and relationships within your data."
+    },
+    {
+      "title": "Introduction to Deep Learning",
+      "content": "Get a foundational understanding of Deep Learning concepts like neural networks and their applications in various data science domains."
+    }
+  ],
+  "course_structure": {
+    "modules": [
+      {
+        "module_number": 1,
+        "title": "Introduction to Data Science",
+        "topics": [
+          "The data science workflow",
+          "Applications"
+        ]
+      },
+      {
+        "module_number": 2,
+        "title": "Statistics and Probability",
+        "topics": [
+          "Central tendency",
+          "Hypothesis testing",
+          "Distributions"
+        ]
+      },
+      {
+        "module_number": 3,
+        "title": "Machine Learning Fundamentals",
+        "topics": [
+          "Supervised vs unsupervised learning",
+          "Common algorithms"
+        ]
+      },
+      {
+        "module_number": 4,
+        "title": "Data Wrangling and Cleaning",
+        "topics": [
+          "Data manipulation with Pandas"
+        ]
+      },
+      {
+        "module_number": 5,
+        "title": "Data Visualization",
+        "topics": [
+          "Creating charts and graphs with Matplotlib",
+          "Seaborn"
+        ]
+      },
+      {
+        "module_number": 6,
+        "title": "Exploratory Data Analysis (EDA)",
+        "topics": [
+          "Uncovering patterns and trends"
+        ]
+      },
+      {
+        "module_number": 7,
+        "title": "Introduction to Deep Learning",
+        "topics": [
+          "Neural networks",
+          "Basic concepts"
+        ]
+      },
+      {
+        "module_number": 8,
+        "title": "Capstone Project",
+        "topics": [
+          "Apply your skills to a real-world data science problem"
+        ]
+      }
+    ]
+  }
+}

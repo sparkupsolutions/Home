@@ -1,0 +1,101 @@
+{
+  "logo": "/Technology/etl.png",
+  "title": "Data Engineering Fundamentals: Building Your Data Pipeline Expertise",
+  "description": "Welcome to the world of Data Engineering! This course equips you with the foundational knowledge and tools to design, develop, and manage efficient data pipelines.",
+  "learning_outcomes": [
+    {
+      "title": "Data Warehousing and Big Data Concepts",
+      "content": "Understand the concepts of data warehouses, data lakes, data ingestion, storage, and retrieval for large datasets."
+    },
+    {
+      "title": "Data Modeling",
+      "content": "Learn to design effective data models that organize and structure your data for efficient analysis. Explore techniques like dimensional modeling and entity-relationship diagrams."
+    },
+    {
+      "title": "ETL/ELT Processing",
+      "content": "Master the ETL (Extract, Transform, Load) and ELT (Extract, Load, Transform) processes for moving data between various systems."
+    },
+    {
+      "title": "Data Pipelines with Python",
+      "content": "Utilize Python libraries like Pandas and Spark to build robust data pipelines that automate data movement and transformation."
+    },
+    {
+      "title": "Cloud Platforms for Data Engineering",
+      "content": "Explore cloud platforms like AWS, Azure, or GCP for scalable data storage, processing, and analytics solutions."
+    },
+    {
+      "title": "Version Control and DataOps",
+      "content": "Implement best practices for version control with Git and embrace DataOps principles for continuous integration and delivery of your data pipelines."
+    }
+  ],
+  "course_structure": {
+    "modules": [
+      {
+        "module_number": 1,
+        "title": "Introduction to Data Engineering",
+        "topics": [
+          "Data lifecycle",
+          "Roles",
+          "Tools"
+        ]
+      },
+      {
+        "module_number": 2,
+        "title": "Data Warehousing and Big Data",
+        "topics": [
+          "Concepts",
+          "Storage",
+          "Retrieval"
+        ]
+      },
+      {
+        "module_number": 3,
+        "title": "Data Modeling",
+        "topics": [
+          "Dimensional modeling",
+          "ER diagrams"
+        ]
+      },
+      {
+        "module_number": 4,
+        "title": "ETL/ELT Processing",
+        "topics": [
+          "Data movement",
+          "Transformation"
+        ]
+      },
+      {
+        "module_number": 5,
+        "title": "Data Pipelines with Python",
+        "topics": [
+          "Pandas",
+          "Spark for data manipulation"
+        ]
+      },
+      {
+        "module_number": 6,
+        "title": "Cloud Platforms for Data Engineering",
+        "topics": [
+          "AWS",
+          "Azure",
+          "GCP services"
+        ]
+      },
+      {
+        "module_number": 7,
+        "title": "Version Control and DataOps",
+        "topics": [
+          "Git",
+          "CI/CD for data pipelines"
+        ]
+      },
+      {
+        "module_number": 8,
+        "title": "Capstone Project",
+        "topics": [
+          "Build a data pipeline for a specific use case"
+        ]
+      }
+    ]
+  }
+}

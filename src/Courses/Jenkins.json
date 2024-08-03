@@ -1,0 +1,124 @@
+{
+  "logo": "/Technology/jenkins.png",
+  "title": "Mastering Continuous Integration and Delivery with Jenkins",
+  "description": "Welcome to the world of automation with Jenkins! This course equips you with the skills to implement a robust CI/CD (Continuous Integration/Continuous Delivery) pipeline using Jenkins, a popular open-source automation server.",
+  "learning_outcomes": [
+    {
+      "title": "CI/CD Fundamentals",
+      "content": "Grasp the core concepts of CI/CD pipelines and their role in streamlining software development and delivery. Explore the benefits of automation and faster feedback loops."
+    },
+    {
+      "title": "Introducing Jenkins",
+      "content": "Dive deep into Jenkins, a free and open-source automation server used for building, testing, and deploying applications."
+    },
+    {
+      "title": "Building with Jenkins Pipelines",
+      "content": "Learn how to define pipelines using declarative syntax or scripted pipelines (Groovy) in Jenkins. Explore stages, steps, and pipeline flow control."
+    },
+    {
+      "title": "Version Control Integration",
+      "content": "Master how to integrate Jenkins with popular version control systems like Git for automatic builds triggered by code changes."
+    },
+    {
+      "title": "Building and Testing",
+      "content": "Explore how to leverage Jenkins to automate building and testing your applications. Integrate build tools like Maven or Gradle and testing frameworks like JUnit or pytest."
+    },
+    {
+      "title": "Deployment and Delivery",
+      "content": "Learn how to configure Jenkins pipelines for automated deployments to various environments (development, staging, production) using plugins or scripts."
+    },
+    {
+      "title": "Notifications and Monitoring",
+      "content": "Understand how to configure Jenkins to send notifications about build status and integrate with monitoring tools for real-time insights into your CI/CD pipeline."
+    },
+    {
+      "title": "Advanced Jenkins Features",
+      "content": "Explore advanced topics like pipeline security, managing distributed builds with Jenkins agents, and integrating with cloud platforms for infrastructure provisioning."
+    }
+  ],
+  "course_structure": {
+    "modules": [
+      {
+        "module_number": 1,
+        "title": "Introduction to CI/CD",
+        "topics": [
+          "Overview of CI/CD pipelines",
+          "Benefits of automation",
+          "Faster feedback loops"
+        ]
+      },
+      {
+        "module_number": 2,
+        "title": "Introduction to Jenkins",
+        "topics": [
+          "Jenkins overview",
+          "Installation and setup",
+          "Core features"
+        ]
+      },
+      {
+        "module_number": 3,
+        "title": "Building with Jenkins Pipelines",
+        "topics": [
+          "Declarative syntax",
+          "Scripted pipelines (Groovy)",
+          "Stages, steps, and flow control"
+        ]
+      },
+      {
+        "module_number": 4,
+        "title": "Version Control Integration with Jenkins",
+        "topics": [
+          "Integrating with Git",
+          "Automatic builds triggered by code changes",
+          "Configuring version control settings"
+        ]
+      },
+      {
+        "module_number": 5,
+        "title": "Building and Testing with Jenkins",
+        "topics": [
+          "Automating builds with Maven/Gradle",
+          "Integrating testing frameworks (JUnit, pytest)",
+          "Continuous testing strategies"
+        ]
+      },
+      {
+        "module_number": 6,
+        "title": "Deployment and Delivery Strategies",
+        "topics": [
+          "Automated deployments",
+          "Configuring environments (development, staging, production)",
+          "Using plugins and scripts for deployment"
+        ]
+      },
+      {
+        "module_number": 7,
+        "title": "Notifications and Monitoring",
+        "topics": [
+          "Configuring notifications",
+          "Integrating with monitoring tools",
+          "Real-time insights into CI/CD pipelines"
+        ]
+      },
+      {
+        "module_number": 8,
+        "title": "Advanced Jenkins Features (Optional)",
+        "topics": [
+          "Pipeline security",
+          "Managing distributed builds with Jenkins agents",
+          "Cloud platform integration"
+        ]
+      },
+      {
+        "module_number": 9,
+        "title": "Capstone Project",
+        "topics": [
+          "Building a CI/CD pipeline for a sample application",
+          "Implementing learned concepts",
+          "Final project deployment and evaluation"
+        ]
+      }
+    ]
+  }
+}
