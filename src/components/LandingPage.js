@@ -20,7 +20,7 @@ import Phases from './Phases';
 
 const images = [
   {
-    src: "/Images/img_3.png",
+    src: "Images/img_3.png",
     alt: 'First slide',
     caption: {
       title: "Real Programmers as Mentors",
@@ -29,7 +29,7 @@ const images = [
     
   },
   {
-    src: '/Images/img_5.png',
+    src: 'Images/img_5.png',
     alt: 'Second slide',
     caption: {
       title: "Hands-On Learning Experience",
@@ -38,7 +38,7 @@ const images = [
   },
   {
     //src: 'https://via.placeholder.com/800x400?text=Third+slide',
-    src: '/Images/img_4.png',
+    src: 'Images/img_4.png',
     alt: 'Third slide',
     caption: {
       title: "Get Industry-Ready",

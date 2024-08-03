@@ -1,5 +1,4 @@
-import Button from 'react-bootstrap/Button';
-import {Container, Form, Nav, Navbar} from 'react-bootstrap';
+import {Container, Nav, Navbar} from 'react-bootstrap';
 
 function MenuBar() {
   return (
