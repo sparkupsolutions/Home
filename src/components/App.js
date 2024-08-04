@@ -14,7 +14,7 @@ function App() {
   return (
     <Router baseline="/">
       <Routes>
-        {/* <Route path="/" element={<Home />} /> */}
+        <Route path="/home" element={<LandingPage />} />
         <Route index element={<LandingPage />} />
         {/* <Route path="sidebar" element={<Sidebar />} />
         <Route path="insights" element={<Courses />} />
