@@ -25,6 +25,11 @@
       Learn how to configure a non-root public URL by running `npm run build`.
     -->
     <title>SparkUp Solutions</title>
+    <script type="text/javascript">
+      if (window.location.pathname === "/") {
+        window.location.replace(window.location.origin + "/#/home");
+      }
+    </script>
   </head>
   <body>
     <noscript>Offline Coding Institute</noscript>
