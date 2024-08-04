@@ -45,8 +45,8 @@ const DestopView = () => {
 
   return (
     <Box bg="black" py="4" px="8" position="fixed" bottom="0" left="0" right="0">
-      <Text fontSize='sm' color='whitesmoke'>
-        Have any questions or need assistance? We'd love to hear from you! Please fill out the form below, and one of our representatives will get in touch with you shortly.
+      <Text fontSize='md' color='whitesmoke'>
+        For Registration on SparkUp Solutions, Please fill this form !
       </Text>
       <Button colorScheme="blue" width="100%" onClick={handleShow}>
         Click to fill out the form !
@@ -82,7 +82,7 @@ const MobileView = () => {
   return (
     <Box bg="black" py="2" px="2" position="fixed" bottom="0" left="0" right="0">
       <Text fontSize='sm' color='whitesmoke'>
-        Any questions or need assistance? 
+        For Registration on SparkUp Solutions, Please fill this form !
       </Text>
       <Button colorScheme="blue" width="100%" onClick={handleShow}>
         Click to fill out the form !

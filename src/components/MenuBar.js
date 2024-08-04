@@ -1,6 +1,12 @@
+import React, { useState } from 'react';
 import {Container, Nav, Navbar} from 'react-bootstrap';
 
+import ContactUs from './Contact_us';
+
 function MenuBar() {
+  const [showContactUs, setShowContactUs] = useState(false);
+  const handleShow = () => setShowContactUs(true);
+  const handleClose = () => setShowContactUs(false);
   return (
     <Navbar expand="lg" className="bg-body-tertiary" bg="dark" data-bs-theme="dark">
       <Container fluid>
@@ -16,6 +22,8 @@ function MenuBar() {
           >
             <Nav.Link href={process.env.REACT_APP_FOR_PATH + "/"}>Home</Nav.Link>
             <Nav.Link href="#/courses">Courses List</Nav.Link>
+            <Nav.Link onClick={handleShow}>Contact Us</Nav.Link>
+            <ContactUs show={showContactUs} handleClose={handleClose} />
             {/* <Nav.Link href="/sidebar">About us</Nav.Link> */}
             {/* <NavDropdown title="Link" id="navbarScrollingDropdown">
               <NavDropdown.Item href="#action3">Action</NavDropdown.Item>

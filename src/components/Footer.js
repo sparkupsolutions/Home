@@ -1,8 +1,13 @@
 // Footer.js
-import React from 'react';
-import { Container, Row, Col } from 'react-bootstrap';
+import React, { useState } from 'react';
+import { Container, Row, Col, Button } from 'react-bootstrap';
+
+import ContactUs from './Contact_us';
 
 const Footer = () => {
+  const [showContactUs, setShowContactUs] = useState(false);
+  const handleShow = () => setShowContactUs(true);
+  const handleClose = () => setShowContactUs(false);
   return (
     <footer className="footer mt-auto py-3 pb-5 bg-dark text-light">
       <Container>
@@ -18,7 +23,9 @@ const Footer = () => {
           <Col md={4}>
             <h5>Contact</h5>
             <ul className="list-unstyled">
-            <a href="mailto:support@sparkupsolutions.in">Email: support@sparkupsolutions.in</a>
+            <Button variant="outline-light" onClick={handleShow}>support@sparkupsolutions</Button>
+            <ContactUs show={showContactUs} handleClose={handleClose} />
+            {/* <a href="mailto:support@sparkupsolutions.in">Email: support@sparkupsolutions.in</a> */}
               {/* <li>Phone: (123) 456-7890</li>
               <li>Address: 123 Main St, City, Country</li> */}
             </ul>
