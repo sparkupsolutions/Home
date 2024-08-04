@@ -9,7 +9,7 @@ function CardCourses(indexs) {
   const jsonData = loadJsonFiles();
   const title = jsonData[indexs.index].title
   const description = jsonData[indexs.index].description
-  const logo = jsonData[indexs.index].logo
+  const logo = process.env.REACT_APP_FOR_PATH + jsonData[indexs.index].logo
 
   const w = window.innerWidth < 1000 ? '20rem' : '16rem'
   return (

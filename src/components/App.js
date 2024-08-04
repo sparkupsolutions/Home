@@ -1,5 +1,5 @@
 import React from 'react';
-import { HashRouter as Router, Routes, Route, Navigate } from 'react-router-dom';
+import { HashRouter as Router, Routes, Route } from 'react-router-dom';
 import '../App.css';
 
 import LandingPage from './LandingPage';
@@ -12,7 +12,7 @@ import CourseOverview from './CourseOverview';
 
 function App() {
   return (
-    <Router>
+    <Router baseline="/">
       <Routes>
         {/* <Route path="/" element={<Home />} /> */}
         <Route index element={<LandingPage />} />

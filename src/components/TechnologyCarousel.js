@@ -43,7 +43,7 @@ const TechnologyCarousel = () => {
               <Col key={idx} md={2} className="d-flex justify-content-center">
                 <img
                   className="d-block logo-image"
-                  src={logo.src}
+                  src={process.env.REACT_APP_FOR_PATH + logo.src}
                   alt={logo.alt}
                   width="100"
                   height="50%"
