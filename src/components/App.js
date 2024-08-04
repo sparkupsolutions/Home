@@ -19,8 +19,8 @@ function App() {
         {/* <Route path="sidebar" element={<Sidebar />} />
         <Route path="insights" element={<Courses />} />
         <Route path="about" element={<About />} /> */}
-        <Route path={process.env.REACT_APP_FOR_PATH + "/courses"} element={<Courses />} />
-        <Route path={process.env.REACT_APP_FOR_PATH + "/courseOverview"} element={<CourseOverview />} />
+        <Route path="/courses" element={<Courses />} />
+        <Route path="/courseOverview" element={<CourseOverview />} />
         {/* <Route path="courseForm" element={<CourseForm />} /> */}
         {/* <Route path="/*" element={<Navigate to="/" />} /> */}
       </Routes>
