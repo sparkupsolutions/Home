@@ -4,7 +4,7 @@ function MenuBar() {
   return (
     <Navbar expand="lg" className="bg-body-tertiary" bg="dark" data-bs-theme="dark">
       <Container fluid>
-        <Navbar.Brand href="/" style={{fontFamily:"fangsong", color: "#fff0b5", fontWeight:"bolder"}}>
+        <Navbar.Brand href={process.env.REACT_APP_FOR_PATH + "/"} style={{fontFamily:"fangsong", color: "#fff0b5", fontWeight:"bolder"}}>
           SparkUp Solutions
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="navbarScroll" />
@@ -14,7 +14,7 @@ function MenuBar() {
             style={{ maxHeight: '100px' }}
             navbarScroll
           >
-            <Nav.Link href="/">Home</Nav.Link>
+            <Nav.Link href={process.env.REACT_APP_FOR_PATH + "/"}>Home</Nav.Link>
             <Nav.Link href="#/courses">Courses List</Nav.Link>
             {/* <Nav.Link href="/sidebar">About us</Nav.Link> */}
             {/* <NavDropdown title="Link" id="navbarScrollingDropdown">
