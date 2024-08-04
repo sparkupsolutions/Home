@@ -20,7 +20,7 @@ function CarouselSlider({images, activeIndex, onSelect}) {
           {image.caption && (
             <Carousel.Caption>
               <h4 style={{"color":"#523904"}}>{image.caption.title}</h4>
-              <p style={{"background-color":"#6f9bc061", "border-radius":"25px", "color":"#0c2f50"}}><b>{image.caption.description}</b></p>
+              <p style={{"backgroundColor":"#6f9bc061", "borderRadius":"25px", "color":"#0c2f50"}}><b>{image.caption.description}</b></p>
             </Carousel.Caption>
           )}
         </Carousel.Item>

@@ -13,7 +13,7 @@ function CardCourses(indexs) {
 
   const w = window.innerWidth < 1000 ? '20rem' : '16rem'
   return (
-    <Card boxShadow='dark-lg' style={{ width: w }}>
+    <Card boxshadow='dark-lg' style={{ width: w }}>
       <Card.Img 
       variant="top" 
       src={logo}

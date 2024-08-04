@@ -1,6 +1,6 @@
 // Phases.js
 import React from 'react';
-import {Box, Heading, Text, Container, Step, StepDescription, StepIndicator, StepNumber, StepSeparator, StepStatus, StepTitle, Stepper, useSteps } from '@chakra-ui/react';
+import {Box, Container, Step, StepDescription, StepIndicator, StepSeparator, StepStatus, StepTitle, Stepper, useSteps } from '@chakra-ui/react';
 import { motion } from 'framer-motion';
 import { useInView } from 'react-intersection-observer';
 import { CheckIcon } from '@chakra-ui/icons';

@@ -1,6 +1,6 @@
 {
   "name": "frontend",
-  "homepage": "https://sparkupsolutions.github.io/Home",
+  "homepage": ".",
   "version": "0.1.0",
   "private": true,
   "dependencies": {

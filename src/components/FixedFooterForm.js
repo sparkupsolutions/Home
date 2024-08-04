@@ -58,7 +58,7 @@ const DestopView = () => {
         </Modal.Header>
         <Modal.Body>
           <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSdxcguO9CxcS8Fem7zYR4N5YX-sCxxAiaDhxiTE6S6W8XtSwg/viewform?embedded=true"
-            width="450" height="400" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+            title="Python Course Registration Form" width="450" height="400" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
         </Modal.Body>
         <Modal.Footer>
           <Button variant="secondary" onClick={handleClose}>
@@ -110,7 +110,7 @@ const MobileView = () => {
             </InputGroup>
           </Stack> */}
           <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSdxcguO9CxcS8Fem7zYR4N5YX-sCxxAiaDhxiTE6S6W8XtSwg/viewform?embedded=true"
-            width="350" height="600" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+            title="Python Course Registration Form" width="350" height="600" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
         </Modal.Body>
         <Modal.Footer>
           <Button variant="secondary" onClick={handleClose}>
