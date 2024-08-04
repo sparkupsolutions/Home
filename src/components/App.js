@@ -1,7 +1,5 @@
 import React from 'react';
-import { Routes, Route, Navigate} from 'react-router-dom';
-
-// import logo from '../logo.svg';
+import { HashRouter as Router, Routes, Route, Navigate } from 'react-router-dom';
 import '../App.css';
 
 import LandingPage from './LandingPage';
@@ -14,17 +12,19 @@ import CourseOverview from './CourseOverview';
 
 function App() {
   return (
+    <Router>
       <Routes>
-        {/* <Route path="/" element={<Home/>}/> */}
+        {/* <Route path="/" element={<Home />} /> */}
         <Route index element={<LandingPage />} />
         {/* <Route path="sidebar" element={<Sidebar />} />
         <Route path="insights" element={<Courses />} />
         <Route path="about" element={<About />} /> */}
-        <Route path= {process.env.REACT_APP_FOR_PATH + "/courses"} element={<Courses />} />
-        <Route path= {process.env.REACT_APP_FOR_PATH + "/courseOverview"} element={<CourseOverview />} />
+        <Route path={process.env.REACT_APP_FOR_PATH + "/courses"} element={<Courses />} />
+        <Route path={process.env.REACT_APP_FOR_PATH + "/courseOverview"} element={<CourseOverview />} />
         {/* <Route path="courseForm" element={<CourseForm />} /> */}
-        <Route path="/*" element={<Navigate to="/" />} />
+        {/* <Route path="/*" element={<Navigate to="/" />} /> */}
       </Routes>
+    </Router>
   );
 }
 

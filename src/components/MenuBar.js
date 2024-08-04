@@ -15,7 +15,7 @@ function MenuBar() {
             navbarScroll
           >
             <Nav.Link href="/">Home</Nav.Link>
-            <Nav.Link href="/courses">Courses List</Nav.Link>
+            <Nav.Link href="#/courses">Courses List</Nav.Link>
             {/* <Nav.Link href="/sidebar">About us</Nav.Link> */}
             {/* <NavDropdown title="Link" id="navbarScrollingDropdown">
               <NavDropdown.Item href="#action3">Action</NavDropdown.Item>
