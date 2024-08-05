@@ -23,8 +23,8 @@ const images = [
     src: process.env.REACT_APP_FOR_PATH + "/Images/img_3.png",
     alt: 'First slide',
     caption: {
-      title: "Real Programmers as Mentors",
-      description: "Learn from experienced industry professionals who code every day, not just teach. Our offline classes ensure personalized attention, helping you master industry-ready technologies, craft a standout resume, and ace interviews."
+      title: "Hands-On Learning Experience",
+      description: "Join our offline institute, where real-world programmers mentor you. We focus on equipping you with essential skills for a successful career."
     }
     
   },
@@ -32,17 +32,18 @@ const images = [
     src: process.env.REACT_APP_FOR_PATH + '/Images/img_5.png',
     alt: 'Second slide',
     caption: {
-      title: "Hands-On Learning Experience",
-      description: "Join our offline institute, where real-world programmers mentor you. We focus on your individual progress, preparing you with the latest technologies, professional resume building, and interview skills for a successful career."
+      title: "Get Industry-Ready",
+      description: "At our offline coding institute, real programmers teach you. We offer hands-on training, resume crafting, and interview preparation to make you industry-ready."
     }
   },
   {
     //src: 'https://via.placeholder.com/800x400?text=Third+slide',
     src: process.env.REACT_APP_FOR_PATH + '/Images/img_4.png',
     alt: 'Third slide',
-    caption: {
-      title: "Get Industry-Ready",
-      description: "At our offline coding institute, you're taught by real programmers. We provide hands-on training with cutting-edge technologies, personalized resume crafting, and intensive interview preparation to ensure you're industry-ready."
+    caption: 
+      {
+      title: "Real Programmers as Mentors",
+      description: "Learn from real-world coders. Our offline classes offer personalized guidance to help you master key technologies, create a strong resume, and succeed in interviews."
     }
   }
 ];
@@ -134,7 +135,7 @@ const LandingPage = () => {
         <Box px="8" py="8">
           <Wrap spacing='30px'>
             <Box boxShadow='dark-lg'>
-              <CardCourses index = {0}/>
+              <CardCourses index = {12}/>
             </Box>
             <Box boxShadow='dark-lg'>
               <CardCourses index = {1}/>
